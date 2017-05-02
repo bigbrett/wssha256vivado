@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/brett/Thesis/Vivado_WS/sha256test/sha256test.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1024001fs"></ZoomEndTime>
+      <Cursor1Time time="15000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="360"></NameColumnWidth>
+      <ValueColumnWidth column_width="124"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="44" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject type="logic" fp_name="design_1_i/probe19">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/probe19</obj_property>
+      <obj_property name="ObjectShortName">probe19</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/probe20">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/probe20</obj_property>
+      <obj_property name="ObjectShortName">probe20</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/probe22">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/probe22</obj_property>
+      <obj_property name="ObjectShortName">probe22</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/probe25">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/probe25</obj_property>
+      <obj_property name="ObjectShortName">probe25</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/probe35">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/probe35</obj_property>
+      <obj_property name="ObjectShortName">probe35</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/probe38">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/probe38</obj_property>
+      <obj_property name="ObjectShortName">probe38</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/probe39">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/probe39</obj_property>
+      <obj_property name="ObjectShortName">probe39</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/probe41">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/probe41</obj_property>
+      <obj_property name="ObjectShortName">probe41</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/probe43">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/probe43</obj_property>
+      <obj_property name="ObjectShortName">probe43</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_ARADDR">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_ARADDR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_ARBURST">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_ARBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_ARBURST[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_ARCACHE">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_ARCACHE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_ARCACHE[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_ARLEN">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_ARLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_ARLEN[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_ARLOCK">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_ARLOCK[0:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_ARLOCK[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_ARPROT">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_ARPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_ARPROT[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_ARQOS">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_ARQOS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_ARQOS[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/sha256_0_m_axi_memptr_ARREADY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_ARREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_ARREGION">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_ARREGION[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_ARREGION[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_ARSIZE">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_ARSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_ARSIZE[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/sha256_0_m_axi_memptr_ARVALID">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_ARVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_AWADDR">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_AWADDR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_AWBURST">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_AWBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_AWBURST[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_AWCACHE">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_AWCACHE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_AWCACHE[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_AWLEN">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_AWLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_AWLEN[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_AWLOCK">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_AWLOCK[0:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_AWLOCK[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_AWPROT">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_AWPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_AWPROT[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_AWQOS">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_AWQOS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_AWQOS[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/sha256_0_m_axi_memptr_AWREADY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_AWREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_AWREGION">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_AWREGION[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_AWREGION[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_AWSIZE">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_AWSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_AWSIZE[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/sha256_0_m_axi_memptr_AWVALID">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_AWVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/sha256_0_m_axi_memptr_BREADY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_BREADY</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_BREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_BRESP">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_BRESP[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/sha256_0_m_axi_memptr_BVALID">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_BVALID</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_BVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_RDATA">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_RDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/sha256_0_m_axi_memptr_RLAST">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_RLAST</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_RLAST</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/sha256_0_m_axi_memptr_RREADY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_RREADY</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_RREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_RRESP">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_RRESP[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/sha256_0_m_axi_memptr_RVALID">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_RVALID</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_RVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_WDATA">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_WDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/sha256_0_m_axi_memptr_WLAST">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_WLAST</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_WLAST</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/sha256_0_m_axi_memptr_WREADY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_WREADY</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_WREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="design_1_i/sha256_0_m_axi_memptr_WSTRB">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_WSTRB[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="design_1_i/sha256_0_m_axi_memptr_WVALID">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">design_1_i/sha256_0_m_axi_memptr_WVALID</obj_property>
+      <obj_property name="ObjectShortName">sha256_0_m_axi_memptr_WVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+</wave_config>

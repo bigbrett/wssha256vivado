@@ -1,0 +1,911 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Apr 11 14:27:22 2017
+# Process ID: 3600
+# Current directory: /home/brett/Thesis/Vivado_WS/sha256test/sha256test.runs/design_1_sha256_0_0_synth_1
+# Command line: vivado -log design_1_sha256_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_sha256_0_0.tcl
+# Log file: /home/brett/Thesis/Vivado_WS/sha256test/sha256test.runs/design_1_sha256_0_0_synth_1/design_1_sha256_0_0.vds
+# Journal file: /home/brett/Thesis/Vivado_WS/sha256test/sha256test.runs/design_1_sha256_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_sha256_0_0.tcl -notrace
+Command: synth_design -top design_1_sha256_0_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3605 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1066.555 ; gain = 136.086 ; free physical = 23586 ; free virtual = 31971
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_sha256_0_0' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ip/design_1_sha256_0_0/synth/design_1_sha256_0_0.vhd:81]
+	Parameter C_S_AXI_AXILITES_ADDR_WIDTH bound to: 10 - type: integer 
+	Parameter C_S_AXI_AXILITES_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'sha256' declared at '/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:12' bound to instance 'U0' of component 'sha256' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ip/design_1_sha256_0_0/synth/design_1_sha256_0_0.vhd:138]
+INFO: [Synth 8-638] synthesizing module 'sha256' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:40]
+	Parameter C_S_AXI_AXILITES_ADDR_WIDTH bound to: 10 - type: integer 
+	Parameter C_S_AXI_AXILITES_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:184]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:187]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:199]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:202]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:226]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:240]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:242]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:244]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:246]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:248]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:250]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:252]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:254]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:256]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:258]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:260]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:262]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:264]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:266]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:268]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:270]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:272]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:274]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:276]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:278]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:280]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:282]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:284]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:286]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:288]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:290]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:292]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:294]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:296]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:298]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:300]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:302]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:376]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:379]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:382]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:385]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:391]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 10 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'sha256_AXILiteS_s_axi' declared at '/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_AXILiteS_s_axi.vhd:12' bound to instance 'sha256_AXILiteS_s_axi_U' of component 'sha256_AXILiteS_s_axi' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:588]
+INFO: [Synth 8-638] synthesizing module 'sha256_AXILiteS_s_axi' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_AXILiteS_s_axi.vhd:95]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 10 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter BYTES bound to: 4 - type: integer 
+	Parameter DEPTH bound to: 64 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'sha256_AXILiteS_s_axi_ram' declared at '/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_AXILiteS_s_axi.vhd:621' bound to instance 'int_data' of component 'sha256_AXILiteS_s_axi_ram' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_AXILiteS_s_axi.vhd:203]
+INFO: [Synth 8-638] synthesizing module 'sha256_AXILiteS_s_axi_ram' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_AXILiteS_s_axi.vhd:644]
+	Parameter BYTES bound to: 4 - type: integer 
+	Parameter DEPTH bound to: 64 - type: integer 
+	Parameter AWIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'sha256_AXILiteS_s_axi_ram' (1#1) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_AXILiteS_s_axi.vhd:644]
+	Parameter BYTES bound to: 4 - type: integer 
+	Parameter DEPTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-3491] module 'sha256_AXILiteS_s_axi_ram' declared at '/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_AXILiteS_s_axi.vhd:621' bound to instance 'int_digest' of component 'sha256_AXILiteS_s_axi_ram' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_AXILiteS_s_axi.vhd:224]
+INFO: [Synth 8-638] synthesizing module 'sha256_AXILiteS_s_axi_ram__parameterized1' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_AXILiteS_s_axi.vhd:644]
+	Parameter BYTES bound to: 4 - type: integer 
+	Parameter DEPTH bound to: 8 - type: integer 
+	Parameter AWIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'sha256_AXILiteS_s_axi_ram__parameterized1' (1#1) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_AXILiteS_s_axi.vhd:644]
+INFO: [Synth 8-256] done synthesizing module 'sha256_AXILiteS_s_axi' (2#1) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_AXILiteS_s_axi.vhd:95]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'sha256_seg_buf' declared at '/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_seg_buf.vhd:93' bound to instance 'seg_buf_U' of component 'sha256_seg_buf' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:628]
+INFO: [Synth 8-638] synthesizing module 'sha256_seg_buf' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_seg_buf.vhd:112]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'sha256_seg_buf_ram' declared at '/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_seg_buf.vhd:13' bound to instance 'sha256_seg_buf_ram_U' of component 'sha256_seg_buf_ram' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_seg_buf.vhd:130]
+INFO: [Synth 8-638] synthesizing module 'sha256_seg_buf_ram' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_seg_buf.vhd:35]
+	Parameter mem_type bound to: block - type: string 
+	Parameter dwidth bound to: 8 - type: integer 
+	Parameter awidth bound to: 6 - type: integer 
+	Parameter mem_size bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'sha256_seg_buf_ram' (3#1) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_seg_buf.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'sha256_seg_buf' (4#1) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_seg_buf.vhd:112]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'sha256_sha256ctx_bkb' declared at '/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_sha256ctx_bkb.vhd:107' bound to instance 'sha256ctx_data_U' of component 'sha256_sha256ctx_bkb' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:646]
+INFO: [Synth 8-638] synthesizing module 'sha256_sha256ctx_bkb' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_sha256ctx_bkb.vhd:127]
+	Parameter DataWidth bound to: 8 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'sha256_sha256ctx_bkb_ram' declared at '/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_sha256ctx_bkb.vhd:13' bound to instance 'sha256_sha256ctx_bkb_ram_U' of component 'sha256_sha256ctx_bkb_ram' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_sha256ctx_bkb.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'sha256_sha256ctx_bkb_ram' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_sha256ctx_bkb.vhd:36]
+	Parameter mem_type bound to: block - type: string 
+	Parameter dwidth bound to: 8 - type: integer 
+	Parameter awidth bound to: 6 - type: integer 
+	Parameter mem_size bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'sha256_sha256ctx_bkb_ram' (5#1) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_sha256ctx_bkb.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'sha256_sha256ctx_bkb' (6#1) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_sha256ctx_bkb.vhd:127]
+INFO: [Synth 8-3491] module 'sha256_final' declared at '/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:12' bound to instance 'grp_sha256_final_fu_834' of component 'sha256_final' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:665]
+INFO: [Synth 8-638] synthesizing module 'sha256_final' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:52]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:114]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:117]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:120]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:123]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:135]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:138]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:149]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:153]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:211]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:214]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:220]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:222]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:224]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:229]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:233]
+INFO: [Synth 8-3491] module 'sha256_transform' declared at '/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform.vhd:12' bound to instance 'grp_sha256_transform_fu_494' of component 'sha256_transform' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:313]
+INFO: [Synth 8-638] synthesizing module 'sha256_transform' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform.vhd:45]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform.vhd:97]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform.vhd:100]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform.vhd:107]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform.vhd:109]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform.vhd:113]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform.vhd:121]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform.vhd:124]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform.vhd:132]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform.vhd:136]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform.vhd:145]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform.vhd:148]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform.vhd:160]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'sha256_transform_k' declared at '/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform_k.vhd:129' bound to instance 'k_U' of component 'sha256_transform_k' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform.vhd:299]
+INFO: [Synth 8-638] synthesizing module 'sha256_transform_k' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform_k.vhd:142]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'sha256_transform_k_rom' declared at '/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform_k.vhd:12' bound to instance 'sha256_transform_k_rom_U' of component 'sha256_transform_k_rom' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform_k.vhd:154]
+INFO: [Synth 8-638] synthesizing module 'sha256_transform_k_rom' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform_k.vhd:27]
+	Parameter dwidth bound to: 32 - type: integer 
+	Parameter awidth bound to: 6 - type: integer 
+	Parameter mem_size bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'sha256_transform_k_rom' (7#1) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform_k.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'sha256_transform_k' (8#1) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform_k.vhd:142]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'sha256_transform_m' declared at '/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform_m.vhd:107' bound to instance 'm_U' of component 'sha256_transform_m' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform.vhd:311]
+INFO: [Synth 8-638] synthesizing module 'sha256_transform_m' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform_m.vhd:127]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 64 - type: integer 
+	Parameter AddressWidth bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'sha256_transform_m_ram' declared at '/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform_m.vhd:13' bound to instance 'sha256_transform_m_ram_U' of component 'sha256_transform_m_ram' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform_m.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'sha256_transform_m_ram' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform_m.vhd:36]
+	Parameter mem_type bound to: block - type: string 
+	Parameter dwidth bound to: 32 - type: integer 
+	Parameter awidth bound to: 6 - type: integer 
+	Parameter mem_size bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'sha256_transform_m_ram' (9#1) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform_m.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'sha256_transform_m' (10#1) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform_m.vhd:127]
+INFO: [Synth 8-256] done synthesizing module 'sha256_transform' (11#1) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'sha256_final' (12#1) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_final.vhd:52]
+INFO: [Synth 8-3491] module 'sha256_update' declared at '/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_update.vhd:12' bound to instance 'grp_sha256_update_fu_853' of component 'sha256_update' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:703]
+INFO: [Synth 8-638] synthesizing module 'sha256_update' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_update.vhd:57]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_update.vhd:78]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_update.vhd:81]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_update.vhd:87]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_update.vhd:92]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_update.vhd:95]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_update.vhd:121]
+INFO: [Synth 8-3491] module 'sha256_transform' declared at '/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_transform.vhd:12' bound to instance 'grp_sha256_transform_fu_208' of component 'sha256_transform' [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_update.vhd:180]
+INFO: [Synth 8-256] done synthesizing module 'sha256_update' (13#1) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256_update.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'sha256' (14#1) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'design_1_sha256_0_0' (15#1) [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ip/design_1_sha256_0_0/synth/design_1_sha256_0_0.vhd:81]
+WARNING: [Synth 8-3331] design sha256_transform_m has unconnected port reset
+WARNING: [Synth 8-3331] design sha256_transform_k has unconnected port reset
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[31]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[30]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[29]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[28]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[27]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[26]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[25]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[24]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[23]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[22]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[21]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[20]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[19]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[18]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[17]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[16]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[15]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[14]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[13]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[12]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[11]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[10]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[9]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[8]
+WARNING: [Synth 8-3331] design sha256_sha256ctx_bkb has unconnected port reset
+WARNING: [Synth 8-3331] design sha256_seg_buf has unconnected port reset
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1118.023 ; gain = 187.555 ; free physical = 23533 ; free virtual = 31918
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1118.023 ; gain = 187.555 ; free physical = 23532 ; free virtual = 31918
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ip/design_1_sha256_0_0/constraints/sha256_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ip/design_1_sha256_0_0/constraints/sha256_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.runs/design_1_sha256_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.runs/design_1_sha256_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.07 . Memory (MB): peak = 1475.773 ; gain = 1.000 ; free physical = 23256 ; free virtual = 31638
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1475.773 ; gain = 545.305 ; free physical = 23255 ; free virtual = 31637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1475.773 ; gain = 545.305 ; free physical = 23255 ; free virtual = 31637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1475.773 ; gain = 545.305 ; free physical = 23255 ; free virtual = 31637
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "AWREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "WREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "BVALID" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ARREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5546] ROM "tmp_38_fu_726_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tmp_fu_434_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond_fu_508_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5544] ROM "tmp_84_fu_825_p2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "tmp_70_fu_628_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "exitcond_fu_810_p2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "tmp_84_fu_825_p2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "tmp_70_fu_628_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "exitcond_fu_810_p2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:618]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_reg_1388_reg' and it is trimmed from '10' to '8' bits. [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:1033]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_125_reg_1408_reg' and it is trimmed from '10' to '8' bits. [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ipshared/8e16/hdl/vhdl/sha256.vhd:981]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5545] ROM "tmp_s_fu_1169_p2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "icmp_fu_1185_p2" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "exitcond5_fu_1195_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "tmp_s_fu_1169_p2" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "icmp_fu_1185_p2" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "exitcond5_fu_1195_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ap_NS_fsm" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-3971] The signal gen_write[1].mem_reg was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal gen_write[1].mem_reg was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal ram_reg was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal ram_reg was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal ram_reg was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1475.773 ; gain = 545.305 ; free physical = 23254 ; free virtual = 31636
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 8     
+	   2 Input     32 Bit       Adders := 24    
+	   2 Input     24 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 8     
+	   2 Input      6 Bit       Adders := 10    
+	   2 Input      5 Bit       Adders := 3     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 9     
+	   3 Input     32 Bit         XORs := 8     
+	   2 Input      3 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               41 Bit    Registers := 1     
+	               32 Bit    Registers := 124   
+	               14 Bit    Registers := 1     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 22    
+	                7 Bit    Registers := 14    
+	                6 Bit    Registers := 5     
+	                5 Bit    Registers := 6     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 17    
++---RAMs : 
+	               2K Bit         RAMs := 3     
+	              512 Bit         RAMs := 2     
+	              256 Bit         RAMs := 1     
++---ROMs : 
+	                              ROMs := 2     
++---Muxes : 
+	  42 Input     41 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 82    
+	   2 Input     12 Bit        Muxes := 1     
+	  12 Input     11 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 3     
+	   2 Input      8 Bit        Muxes := 8     
+	   3 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 19    
+	   2 Input      5 Bit        Muxes := 12    
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 44    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sha256_AXILiteS_s_axi_ram 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
++---RAMs : 
+	               2K Bit         RAMs := 1     
+Module sha256_AXILiteS_s_axi_ram__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
++---RAMs : 
+	              256 Bit         RAMs := 1     
+Module sha256_AXILiteS_s_axi 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
++---Registers : 
+	               32 Bit    Registers := 3     
+	               10 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input      6 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+Module sha256_seg_buf_ram 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---RAMs : 
+	              512 Bit         RAMs := 1     
+Module sha256_sha256ctx_bkb_ram 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
++---RAMs : 
+	              512 Bit         RAMs := 1     
+Module sha256_transform_k_rom 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
+Module sha256_transform_m_ram 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
++---RAMs : 
+	               2K Bit         RAMs := 1     
+Module sha256_transform 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 4     
+	   2 Input     32 Bit       Adders := 9     
+	   2 Input      7 Bit       Adders := 3     
+	   2 Input      6 Bit       Adders := 4     
+	   2 Input      5 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 4     
+	   3 Input     32 Bit         XORs := 4     
++---Registers : 
+	               32 Bit    Registers := 22    
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 5     
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 15    
+	  12 Input     11 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 7     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module sha256_final 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input     24 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      3 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 16    
+	               14 Bit    Registers := 1     
+	                8 Bit    Registers := 12    
+	                6 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 16    
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 6     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 6     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+Module sha256_update 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 16    
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 8     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 5     
+Module sha256 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               41 Bit    Registers := 1     
+	               32 Bit    Registers := 35    
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 2     
+	                6 Bit    Registers := 2     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	  42 Input     41 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 24    
+	   2 Input      9 Bit        Muxes := 1     
+	   3 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 2     
+	  32 Input      5 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 13    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "icmp_fu_1185_p2" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[31]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[30]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[29]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[28]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[27]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[26]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[25]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[24]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[23]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[22]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[21]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[20]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[19]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[18]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[17]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[16]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[15]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[14]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[13]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[12]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[11]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[10]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[9]
+WARNING: [Synth 8-3331] design sha256_update has unconnected port len[8]
+INFO: [Synth 8-3971] The signal sha256_AXILiteS_s_axi_U/int_data/gen_write[1].mem_reg was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal sha256_AXILiteS_s_axi_U/int_digest/gen_write[1].mem_reg was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal seg_buf_U/sha256_seg_buf_ram_U/ram_reg was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal sha256ctx_data_U/sha256_sha256ctx_bkb_ram_U/ram_reg was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal m_U/sha256_transform_m_ram_U/ram_reg was recognized as a true dual port RAM template.
+INFO: [Synth 8-3886] merging instance 'sha256_transform:/j_1_reg_1146_reg[0]' (FDE) to 'sha256_transform:/tmp_13_reg_1135_reg[0]'
+INFO: [Synth 8-3886] merging instance 'sha256_transform:/tmp_13_reg_1135_reg[1]' (FDE) to 'sha256_transform:/j_1_reg_1146_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_8_35/\seg_offset_fu_198_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_8_35/\seg_offset_fu_198_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_8_35/\seg_offset_fu_198_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_8_35/\seg_offset_fu_198_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_8_35/\seg_offset_fu_198_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_8_35/\seg_offset_fu_198_reg[5] )
+INFO: [Synth 8-3886] merging instance 'U0/grp_sha256_final_fu_834/tmp_91_reg_1166_reg[0]' (FDE) to 'U0/grp_sha256_final_fu_834/tmp_95_reg_1172_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_sha256_final_fu_834/tmp_91_reg_1166_reg[1]' (FDE) to 'U0/grp_sha256_final_fu_834/tmp_95_reg_1172_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/sha256_AXILiteS_s_axi_U/rstate_reg[1]' (FDSE) to 'U0/sha256_AXILiteS_s_axi_U/rstate_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\sha256_AXILiteS_s_axi_U/wstate_reg[2] )
+INFO: [Synth 8-3886] merging instance 'U0/tmp_125_reg_1408_reg[0]' (FDE) to 'U0/tmp_125_reg_1408_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_125_reg_1408_reg[1]' (FDE) to 'U0/tmp_125_reg_1408_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_125_reg_1408_reg[2]' (FDE) to 'U0/tmp_125_reg_1408_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_125_reg_1408_reg[3]' (FDE) to 'U0/tmp_125_reg_1408_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/tmp_125_reg_1408_reg[4]' (FDE) to 'U0/tmp_125_reg_1408_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\tmp_125_reg_1408_reg[5] )
+WARNING: [Synth 8-3332] Sequential element (i_8_0) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_2) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_4) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_6) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_8) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_10) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_12) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_14) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_16) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_18) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_20) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_22) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_24) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_26) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_28) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_30) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_32) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_34) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_36) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_38) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_40) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_42) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_44) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_46) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_48) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_50) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_52) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_54) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_56) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_58) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_60) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_62) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (i_8_64) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (sha256_AXILiteS_s_axi_U/wstate_reg[2]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (j_1_reg_1146_reg[6]) is unused and will be removed from module sha256_transform.
+WARNING: [Synth 8-3332] Sequential element (j_reg_311_reg[6]) is unused and will be removed from module sha256_transform.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[0]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[1]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[2]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[3]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[4]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[5]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[8]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[9]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[10]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[11]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[12]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[13]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[14]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[15]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[16]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[17]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[18]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[19]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[20]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[21]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[22]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[23]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[24]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[25]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[26]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[27]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[28]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[29]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[30]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (seg_offset_fu_198_reg[31]) is unused and will be removed from module sha256.
+WARNING: [Synth 8-3332] Sequential element (tmp_125_reg_1408_reg[5]) is unused and will be removed from module sha256.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1475.773 ; gain = 545.305 ; free physical = 23252 ; free virtual = 31630
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-----------------------+-------------------------------------+---------------+----------------+
+|Module Name            | RTL Object                          | Depth x Width | Implemented As | 
++-----------------------+-------------------------------------+---------------+----------------+
+|sha256_transform_k_rom | q0_reg                              | 64x32         | Block RAM      | 
+|sha256_transform       | k_U/sha256_transform_k_rom_U/q0_reg | 64x32         | Block RAM      | 
+|sha256_transform       | k_U/sha256_transform_k_rom_U/q0_reg | 64x32         | Block RAM      | 
++-----------------------+-------------------------------------+---------------+----------------+
+
+
+Block RAM: Preliminary Mapping  Report (see note below)
++--------------------------+----------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name               | RTL Object           | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++--------------------------+----------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|sha256_AXILiteS_s_axi_ram | gen_write[1].mem_reg | 64 x 32(READ_FIRST)    | W | R | 64 x 32(READ_FIRST)    | W | R | Port A and B     | 0      | 1      | 
+|sha256_AXILiteS_s_axi_ram | gen_write[1].mem_reg | 8 x 32(READ_FIRST)     | W | R | 8 x 32(READ_FIRST)     | W | R | Port A and B     | 0      | 1      | 
+|sha256_seg_buf_ram        | ram_reg              | 64 x 8(WRITE_FIRST)    | W | R | 64 x 8(READ_FIRST)     | W |   | Port A and B     | 1      | 0      | 
+|sha256_sha256ctx_bkb_ram  | ram_reg              | 64 x 8(WRITE_FIRST)    | W | R | 64 x 8(WRITE_FIRST)    | W | R | Port A and B     | 1      | 0      | 
+|sha256_transform_m_ram    | ram_reg              | 64 x 32(WRITE_FIRST)   | W | R | 64 x 32(WRITE_FIRST)   | W | R | Port A and B     | 0      | 1      | 
+|sha256_transform_m_ram    | ram_reg              | 64 x 32(WRITE_FIRST)   | W | R | 64 x 32(WRITE_FIRST)   | W | R | Port A and B     | 0      | 1      | 
++--------------------------+----------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:33 . Memory (MB): peak = 1475.773 ; gain = 545.305 ; free physical = 23228 ; free virtual = 31606
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3971] The signal sha256ctx_data_U/sha256_sha256ctx_bkb_ram_U/ram_reg was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:40 . Memory (MB): peak = 1610.148 ; gain = 679.680 ; free physical = 23076 ; free virtual = 31456
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance U0/sha256_AXILiteS_s_axi_U/int_data/gen_write[1].mem_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/sha256_AXILiteS_s_axi_U/int_data/gen_write[1].mem_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/sha256_AXILiteS_s_axi_U/int_digest/gen_write[1].mem_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/seg_buf_U/sha256_seg_buf_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/sha256ctx_data_U/sha256_sha256ctx_bkb_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/sha256ctx_data_U/sha256_sha256ctx_bkb_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/grp_sha256_final_fu_834/grp_sha256_transform_fu_494/m_U/sha256_transform_m_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/grp_sha256_final_fu_834/grp_sha256_transform_fu_494/m_U/sha256_transform_m_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/grp_sha256_final_fu_834/grp_sha256_transform_fu_494/k_U/sha256_transform_k_rom_U/q0_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/grp_sha256_final_fu_834/grp_sha256_transform_fu_494/k_U/sha256_transform_k_rom_U/q0_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/grp_sha256_update_fu_853/grp_sha256_transform_fu_208/m_U/sha256_transform_m_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/grp_sha256_update_fu_853/grp_sha256_transform_fu_208/m_U/sha256_transform_m_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/grp_sha256_update_fu_853/grp_sha256_transform_fu_208/k_U/sha256_transform_k_rom_U/q0_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/grp_sha256_update_fu_853/grp_sha256_transform_fu_208/k_U/sha256_transform_k_rom_U/q0_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 1615.344 ; gain = 684.875 ; free physical = 23070 ; free virtual = 31451
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:00:44 . Memory (MB): peak = 1615.344 ; gain = 684.875 ; free physical = 23070 ; free virtual = 31451
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:00:44 . Memory (MB): peak = 1615.344 ; gain = 684.875 ; free physical = 23070 ; free virtual = 31451
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:00:45 . Memory (MB): peak = 1615.344 ; gain = 684.875 ; free physical = 23070 ; free virtual = 31450
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:00:45 . Memory (MB): peak = 1615.344 ; gain = 684.875 ; free physical = 23070 ; free virtual = 31450
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 1615.344 ; gain = 684.875 ; free physical = 23070 ; free virtual = 31450
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:46 ; elapsed = 00:00:46 . Memory (MB): peak = 1615.344 ; gain = 684.875 ; free physical = 23070 ; free virtual = 31450
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |CARRY4     |   453|
+|2     |LUT1       |   146|
+|3     |LUT2       |   712|
+|4     |LUT3       |  1511|
+|5     |LUT4       |  1249|
+|6     |LUT5       |   874|
+|7     |LUT6       |   747|
+|8     |RAMB18E1   |     1|
+|9     |RAMB18E1_1 |     1|
+|10    |RAMB18E1_2 |     2|
+|11    |RAMB36E1   |     2|
+|12    |RAMB36E1_1 |     2|
+|13    |FDRE       |  4193|
+|14    |FDSE       |   144|
++------+-----------+------+
+
+Report Instance Areas: 
++------+-----------------------------------+------------------------------------------+------+
+|      |Instance                           |Module                                    |Cells |
++------+-----------------------------------+------------------------------------------+------+
+|1     |top                                |                                          | 10037|
+|2     |  U0                               |sha256                                    | 10037|
+|3     |    grp_sha256_final_fu_834        |sha256_final                              |  4210|
+|4     |      grp_sha256_transform_fu_494  |sha256_transform_0                        |  2782|
+|5     |        k_U                        |sha256_transform_k_1                      |     1|
+|6     |          sha256_transform_k_rom_U |sha256_transform_k_rom_4                  |     1|
+|7     |        m_U                        |sha256_transform_m_2                      |   130|
+|8     |          sha256_transform_m_ram_U |sha256_transform_m_ram_3                  |   130|
+|9     |    grp_sha256_update_fu_853       |sha256_update                             |  3843|
+|10    |      grp_sha256_transform_fu_208  |sha256_transform                          |  2831|
+|11    |        k_U                        |sha256_transform_k                        |     1|
+|12    |          sha256_transform_k_rom_U |sha256_transform_k_rom                    |     1|
+|13    |        m_U                        |sha256_transform_m                        |   130|
+|14    |          sha256_transform_m_ram_U |sha256_transform_m_ram                    |   130|
+|15    |    seg_buf_U                      |sha256_seg_buf                            |    25|
+|16    |      sha256_seg_buf_ram_U         |sha256_seg_buf_ram                        |    25|
+|17    |    sha256_AXILiteS_s_axi_U        |sha256_AXILiteS_s_axi                     |   498|
+|18    |      int_data                     |sha256_AXILiteS_s_axi_ram                 |    95|
+|19    |      int_digest                   |sha256_AXILiteS_s_axi_ram__parameterized1 |   119|
+|20    |    sha256ctx_data_U               |sha256_sha256ctx_bkb                      |     8|
+|21    |      sha256_sha256ctx_bkb_ram_U   |sha256_sha256ctx_bkb_ram                  |     8|
++------+-----------------------------------+------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:46 ; elapsed = 00:00:46 . Memory (MB): peak = 1615.344 ; gain = 684.875 ; free physical = 23070 ; free virtual = 31450
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 93 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:00:38 . Memory (MB): peak = 1615.344 ; gain = 247.035 ; free physical = 23070 ; free virtual = 31450
+Synthesis Optimization Complete : Time (s): cpu = 00:00:46 ; elapsed = 00:00:46 . Memory (MB): peak = 1615.352 ; gain = 684.883 ; free physical = 23070 ; free virtual = 31450
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 461 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ip/design_1_sha256_0_0/constraints/sha256_ooc.xdc] for cell 'U0'
+INFO: [Vivado 12-4761] HD.CLK_SRC property is set on port ap_clk. The net connecting to the port drives either clock PIN or hierarchical black box. Use the create_clock constraint to create a clock on this port prior to setting HD.CLK_SRC.  [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ip/design_1_sha256_0_0/constraints/sha256_ooc.xdc:6]
+Finished Parsing XDC File [/home/brett/Thesis/Vivado_WS/sha256test/sha256test.srcs/sources_1/bd/design_1/ip/design_1_sha256_0_0/constraints/sha256_ooc.xdc] for cell 'U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+217 Infos, 121 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:47 . Memory (MB): peak = 1647.359 ; gain = 649.387 ; free physical = 23071 ; free virtual = 31452
+INFO: [Common 17-1381] The checkpoint '/home/brett/Thesis/Vivado_WS/sha256test/sha256test.runs/design_1_sha256_0_0_synth_1/design_1_sha256_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1174] Renamed 20 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/brett/Thesis/Vivado_WS/sha256test/sha256test.runs/design_1_sha256_0_0_synth_1/design_1_sha256_0_0.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.15 . Memory (MB): peak = 1671.371 ; gain = 0.000 ; free physical = 23062 ; free virtual = 31451
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 11 14:28:19 2017...

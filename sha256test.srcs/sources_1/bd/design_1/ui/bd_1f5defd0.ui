@@ -1,0 +1,26 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 450 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 470 -defaultsOSRD
+preplace inst sha256_0 -pg 1 -lvl 3 -y 190 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 4 -y 310 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 3 -y 400 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 2 -y 281 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 530 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 1 8 460J 520 NJ 520 NJ 520 NJ 520 NJ 520 NJ 520 NJ 520 1810J
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 2 N 510 860J
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 2 1 850
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 470
+preplace netloc processing_system7_0_FIXED_IO 1 1 8 440J 530 NJ 530 NJ 530 NJ 530 NJ 530 NJ 530 NJ 530 1820J
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 10 400 450 400 840J 280 1220
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 2 860 260 1230
+preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 2 1 830
+preplace netloc sha256_0_interrupt 1 0 4 0 120 NJ 120 NJ 120 1230
+levelinfo -pg 1 -20 240 660 1070 1470 1640 1690 1740 1790 1840 -top -360 -bot 1440
+",
+}
+{
+   da_axi4_cnt: "7",
+   da_ps7_cnt: "1",
+}
